@@ -3,27 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
-            background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
-            background-size: cover;
+            background-color: #333;
             color: #333;
-        }
-        header {
-            font-family: 'Montserrat', sans-serif;
-            background-color: rgba(0, 0, 0, 0.8);
-            color: #fff;
-            padding: 20px 0;
-            text-align: center;
-            font-size: 24px;
-            font-weight: bold;
-        }
-        main {
-            padding: 20px;
         }
         .content {
             max-width: 800px;
@@ -46,11 +32,10 @@
         }
         .content img {
             width: 100%;
-            max-width: 560px;
             height: auto;
             object-fit: cover;
             display: block;
-            margin: 20px auto;
+            margin: 20px 0;
             border-radius: 10px;
         }
         .button {
@@ -83,44 +68,6 @@
             margin-top: 10px;
             color: #000;
         }
-        footer {
-            text-align: center;
-            padding: 10px 0;
-            background-color: rgba(0, 0, 0, 0.8);
-            color: #fff;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-
-        @media (max-width: 768px) {
-            header {
-                font-size: 20px;
-                padding: 15px 0;
-            }
-            .button {
-                padding: 10px 20px;
-                font-size: 16px;
-            }
-        }
-
-        @media (max-width: 480px) {
-            header {
-                font-size: 18px;
-                padding: 10px 0;
-            }
-            .button {
-                padding: 8px 16px;
-                font-size: 14px;
-            }
-            .highlight {
-                padding: 10px;
-            }
-            .content {
-                padding: 15px;
-            }
-        }
-
         .section-title {
             font-family: 'Montserrat', sans-serif;
             font-weight: bold;
@@ -132,51 +79,65 @@
     </style>
 </head>
 <body>
-    <main>
-        <div class="content">
-            <div class="highlight">
-                <p>Уважаемый и любимый гость</p>
-                <p>19.07 ПТ SOLAR SYSTEM 5 YEARS!</p>
-                <p>19 июля состоится торжественное празднование юбилея проекта Solar System! 5 лет счастья, 5 лет музыки, 5 лет любви…</p>
-                <p>Промокод на скидку 20 % - Solar324</p>
-            </div>
-            <a href="https://ibb.co/9y24f0f"><img src="https://i.ibb.co/vLmdrWr/image.jpg" alt="image" border="0" /></a>
+    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #333;">
+        <tr>
+            <td align="center">
+                <table width="800" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td style="background-color: #333;">
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80') no-repeat center center; background-size: cover; padding: 20px;">
+                                <tr>
+                                    <td style="background-color: rgba(0, 0, 0, 0.7); padding: 20px; border-radius: 10px; box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); color: #fff;">
+                                        <div class="highlight">
+                                            <p>Уважаемый и любимый гость</p>
+                                            <p>19.07 ПТ SOLAR SYSTEM 5 YEARS!</p>
+                                            <p>19 июля состоится торжественное празднование юбилея проекта Solar System! 5 лет счастья, 5 лет музыки, 5 лет любви…</p>
+                                            <p>Промокод на скидку 20 % - Solar324</p>
+                                        </div>
+                                        <img src="https://i.ibb.co/vLmdrWr/image.jpg" alt="image" style="width: 100%; max-width: 800px; height: auto; object-fit: cover; display: block; margin: 20px 0; border-radius: 10px;" />
 
-            <p>ЧТО ВАС ЖДЕТ?</p>
-            <p>— 20 ярких артистов</p>
-            <p>— 3 танцпола (летняя терраса, библиотека и комната «Алхимия»)</p>
-            <p>— живые концерты на летней террасе на набережной в самом центре столицы, где вместе мы встретим закат</p>
-            <p>— Незабываемый квест по Майянской культуре, который поможет лучше познать себя и окружающий мир</p>
+                                        <p>ЧТО ВАС ЖДЕТ?</p>
+                                        <p>— 20 ярких артистов</p>
+                                        <p>— 3 танцпола (летняя терраса, библиотека и комната «Алхимия»)</p>
+                                        <p>— живые концерты на летней террасе на набережной в самом центре столицы, где вместе мы встретим закат</p>
+                                        <p>— Незабываемый квест по Майянской культуре, который поможет лучше познать себя и окружающий мир</p>
 
-            <p class="section-title">MAIN LIBRARY</p>
-            <p>Dibidabo</p>
-            <p>Alokin (Nikola Melnikov)</p>
-            <p>Lee Solar & Sergey Maltsev</p>
-            <p>Agata</p>
-            <p>S’Brain</p>
-            <p>Pion</p>
-            <p>Deep</p>
+                                        <p class="section-title">MAIN LIBRARY</p>
+                                        <p>Dibidabo</p>
+                                        <p>Alokin (Nikola Melnikov)</p>
+                                        <p>Lee Solar & Sergey Maltsev</p>
+                                        <p>Agata</p>
+                                        <p>S’Brain</p>
+                                        <p>Pion</p>
+                                        <p>Deep</p>
 
-            <p class="section-title">LIVE TERRACE</p>
-            <p>Kapchiz & Holman live</p>
-            <p>Marsianka live</p>
-            <p>Maurice Stars live</p>
-            <p>Marsel Tesla live</p>
-            <p>Miia Zarring live</p>
-            <p>Maxx Arbo live</p>
+                                        <p class="section-title">LIVE TERRACE</p>
+                                        <p>Kapchiz & Holman live</p>
+                                        <p>Marsianka live</p>
+                                        <p>Maurice Stars live</p>
+                                        <p>Marsel Tesla live</p>
+                                        <p>Miia Zarring live</p>
+                                        <p>Maxx Arbo live</p>
 
-            <p class="section-title">ALCHEMY ROOM</p>
-            <p>Vesna</p>
-            <p>Set’n’Setting</p>
-            <p>Alarcon</p>
-            <p>Ivannikov</p>
-            <p>Teo</p>
+                                        <p class="section-title">ALCHEMY ROOM</p>
+                                        <p>Vesna</p>
+                                        <p>Set’n’Setting</p>
+                                        <p>Alarcon</p>
+                                        <p>Ivannikov</p>
+                                        <p>Teo</p>
 
-            <div class="button-container">
-                <p><div class="promo-code">Промокод на скидку 20 % - <span style="color: #ff4500;">Solar324</span></div><p>
-                <a href="https://clck.ru/3BnSD4" class="button">КУПИТЬ БИЛЕТ</a>
-            </div>
-        </div>
-    </main>
+                                        <div class="button-container">
+                                            <p><div class="promo-code">Промокод на скидку 20 % - <span style="color: #ff4500;">Solar324</span></div><p>
+                                            <a href="https://clck.ru/3BnSD4" class="button">КУПИТЬ БИЛЕТ</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
 </body>
 </html>
